@@ -1,0 +1,8 @@
+# Ignore all text files
+*.txt
+
+# Ignore all log files
+*.log
+
+# Ignore pycache folder
+lib/__pycache__

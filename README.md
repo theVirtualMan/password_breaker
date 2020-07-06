@@ -21,15 +21,15 @@ python3 setup.py
 ## Usage
 python3 password_breaker.py <service> <username> <passlist> -m <mode>
 
-###service
+####service
 instagram (yet to build)
 twitter (yet to build)
 facebook
 
-###passlist
+####passlist
 path to the file containing the password list
 
-###mode
+####mode
 0: 32 threads
 1: 16 threads
 2: 8 threads

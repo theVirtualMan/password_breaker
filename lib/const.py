@@ -15,7 +15,7 @@ login_url = {
 
 tor_proxy = '127.0.0.1'
 tor_port = 9050
-geckodriver_path = '/home/rohith/Desktop/interesting/hacking/bruteforcePassword/geckodriver-v0.26.0-linux64/geckodriver'
+geckodriver_path = 'webdrivers/geckodriver'
 
 display_size = (1920, 1080)
 

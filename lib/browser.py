@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from pyvirtualdisplay import Display
 from threading import Thread, RLock
-import time
+
 
 from .const import tor_proxy, tor_port, geckodriver_path, display_size
 
@@ -20,8 +20,8 @@ class Browser(object):
 
 	def br(self):
 				
-		# display = Display(visible=0, size = display_size)
-		# display.start()
+		display = Display(visible=0, size = display_size)
+		display.start()
 
 		profile = FirefoxProfile()
 		profile.set_preference('network.proxy.type', 1)

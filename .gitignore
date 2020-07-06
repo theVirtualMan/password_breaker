@@ -6,3 +6,6 @@
 
 # Ignore pycache folder
 lib/__pycache__
+
+# Ignore webdrivers data
+webdrivers/

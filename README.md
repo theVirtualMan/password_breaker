@@ -1,5 +1,8 @@
 # password_breaker
 
+[![Version](https://img.shields.io/badge/Version-v1.0.0-alpha-blue)]()
+
+
 Open for project name suggestions.
 
 A password breaker for Facebook, Twitter and Instagram. Made with python.
@@ -13,9 +16,16 @@ I am not resposible for any damage you cause, this is for educational purpose on
 Python v3
 TOR Proxy 
 
-##Manual Configuration
+## Manual Configuration
 
-Start torrc in the background (make sure that the ip changes for every 10-20 sec)
+Start tor in the background.
+Add the following line to */etc/tor/torrc* file
+
+```
+MaxCircuitDirtiness NUM
+```
+
+Tor uses new circuit for every **NUM** seconds
 
 ## Install Dependencies
 
@@ -27,17 +37,17 @@ Start torrc in the background (make sure that the ip changes for every 10-20 sec
 
     python3 password_breaker.py <service> <username> <passlist> -m <mode>
 
-######service
+###### service
 
 -   instagram (yet to build)
 -   twitter (yet to build)
 -   facebook
 
-######passlist
+###### passlist
 
 path to the file containing the password list
 
-######mode
+###### mode
 
 -   0: 32 threads
 -   1: 16 threads

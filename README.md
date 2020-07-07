@@ -1,6 +1,6 @@
 # password_breaker
 
-[![Version](https://img.shields.io/badge/Version-v1.0.0-alpha-blue)]()
+[![Version](https://img.shields.io/badge/Version-v1.0.0.a-blue)]()
 
 
 Open for project name suggestions.
